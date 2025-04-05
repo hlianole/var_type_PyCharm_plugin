@@ -10,13 +10,21 @@ Plugin for IDE PyChar, that shows variable type at status bar
 
 ## Usage
 1.  In IDE:
+
     `Gradle -> Tasks -> intellij -> runIde`
+
     This will open PyCharm with this plugin installed
 
 2.  In IDE:
+
     `Gradle -> Tasks -> intellij -> buildPlugin`
+
     This will build the plugin as .zip
+
     Location is `/build/distributions/`
+
     In PyCharm open Plugin menu (`File -> Settings -> Plugins`)
+
     In the top right corner click gear icon and choose `Install Plugin from Disk...`
+    
     Choose .zip from `/build/distributions/`

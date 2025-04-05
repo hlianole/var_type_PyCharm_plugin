@@ -1,5 +1,5 @@
 # var_type_PyCharm_plugin
-Plugin for IDE PyChar, that shows variable type at status bar
+Plugin for IDE PyCharm, that shows variable type at status bar
 
 ## Project structure
 `/src/main/kotlin/com/hlianole/pycharmplugin`: Project source code
@@ -26,5 +26,5 @@ Plugin for IDE PyChar, that shows variable type at status bar
     In PyCharm open Plugin menu (`File -> Settings -> Plugins`)
 
     In the top right corner click gear icon and choose `Install Plugin from Disk...`
-    
+
     Choose .zip from `/build/distributions/`

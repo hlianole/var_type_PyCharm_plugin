@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.hlianole.pycharmplugin</id>
+    <name>Variable Type Status Bar</name>
+    <version>1.0-SNAPSHOT</version>
+    <vendor email="kneck3@gmail.com" url="https://github.com/hlianole">Oleksandr Hliantsev</vendor>
+
+    <description><![CDATA[
+    Plugin to show variable type in status bar
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.python</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetFactory implementation="com.hlianole.pycharmplugin.VarTypeStatusBarWidgetFactory"
+                                order="first"
+                                id="VarTypeStatusBarWidget"/>
+    </extensions>
+</idea-plugin>
